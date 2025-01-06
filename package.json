@@ -2,9 +2,10 @@
   "name": "kiss-design-system",
   "version": "0.0.1",
   "description": "A Keep It Stupid Simple Design System",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": "ssouron <stephane.souron@gmail.com>",
   "license": "MIT",
