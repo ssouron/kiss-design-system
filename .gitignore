@@ -8,9 +8,6 @@ tmp
 
 .env
 
-.idea
-.vscode
-
 .DS_Store
 Thumbs.db
 
