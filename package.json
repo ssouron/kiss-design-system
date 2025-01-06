@@ -7,16 +7,20 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json|md)\""
   },
   "author": "ssouron <stephane.souron@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@types/eslint-config-prettier": "^6.11.3",
     "@typescript-eslint/eslint-plugin": "^8.19.0",
     "@typescript-eslint/parser": "^8.19.0",
     "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
     "globals": "^15.14.0",
+    "prettier": "^3.4.2",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.19.0"
   }
