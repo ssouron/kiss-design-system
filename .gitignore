@@ -1,0 +1,17 @@
+node_modules
+dist/**/*
+coverage
+pids
+logs
+results
+tmp
+
+.env
+
+.idea
+.vscode
+
+.DS_Store
+Thumbs.db
+
+/**/*.tsbuildinfo
