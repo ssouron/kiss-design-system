@@ -8,5 +8,4 @@ export default {
   trailingComma: 'all',
   arrowParens: 'always',
   bracketSpacing: true,
-  proseWrap: 'always',
 }
